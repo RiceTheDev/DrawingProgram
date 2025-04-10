@@ -37,6 +37,7 @@ jobs:
       shell: bash
 
     # Step 5: Create a release
+    # Step 5: Create a release
     - name: Create GitHub Release
       id: create_release
       uses: actions/create-release@v1
@@ -47,6 +48,7 @@ jobs:
           Automated release for ${{ github.ref_name }}.
         draft: false
         prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}  # Add this line
 
     # Step 6: Upload release asset
     - name: Upload Release Asset
