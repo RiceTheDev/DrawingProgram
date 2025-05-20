@@ -4,10 +4,13 @@ include(FetchContent)
 
 set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(BUILD_GAMES    OFF CACHE BOOL "" FORCE)
+
+Set(FETCHCONTENT_QUIET FALSE)
 FetchContent_Declare(raylib
     GIT_REPOSITORY https://github.com/raysan5/raylib.git
     GIT_TAG master
     GIT_SHALLOW ON
+    GIT_PROGRESS
 )
 FetchContent_MakeAvailable(raylib)
 
