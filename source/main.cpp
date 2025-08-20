@@ -11,7 +11,7 @@ int main(void)
     bool MenuAlreadyInited = false;
     InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
     RenderTexture2D display = LoadRenderTexture(screenWidth, screenHeight);
-    SetTargetFPS(99999); 
+    SetTargetFPS(60); 
     //--------------------------------------------------------------------------------------
 
     // Main game loop
