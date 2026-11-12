@@ -5,8 +5,8 @@
 DrawingProgram is a basic drawing app (kind of obvious).
 
 With features like
-- Saving
-Not much ****yet****, it's very basic, but functional!
+- Saving: Not quite there **yet**, it's very basic, but functional!
+  
 ## Building
 
 Clone the project
